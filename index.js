@@ -2,7 +2,7 @@ import { google } from 'googleapis';
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { Name, Reason, symptoms_gang } from "./Functions.js"; 
 
-const GEMINI_API_KEY = "AIzaSyB9qFnikib9QpQP98jKFOfY3P12lH26Fjc";
+const GEMINI_API_KEY = "";
 
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
